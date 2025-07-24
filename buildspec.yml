@@ -3,10 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing...
+      - echo "Installing dependencies..."
   build:
     commands:
-      - echo Build step running...
+      - echo "Build started on date"
+      - echo "This is a demo build step"
 artifacts:
   files:
-    - '/*'
+    - '**/*'
